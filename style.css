@@ -9,10 +9,18 @@ body{
 .orange-color span{
     color:orange;
 }
+section{
+    height:500px;
+    margin-bottom:150px;
+}
+.flexible{
+    display:flex;
+}
 .header-area {
     display:flex;
     background-image: url(images/top-banner.png);
     background-repeat:no-repeat;
+
 }
 .half-width {
     width:50%;
@@ -21,10 +29,10 @@ body{
 .half-width img{
     width:80%;
 }
-.half-width p{
+p{
  
     font-size:15px;
-    margin-bottom:4px;
+    margin-bottom:10px;
     color:#777
 }
 .half-width button{
@@ -34,10 +42,49 @@ body{
     border-radius: 3px;
     font-weight: 700;
     background-image:linear-gradient(red,yellow);
+    
 
 }
 .half-width button a{
+    
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
-    color: white;
+}
 
+
+.middle-area {
+    
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+
+}
+.experience-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h2{
+    font-size: 40px;
+}
+
+.year-color{
+    color:orange;
+}
+.experience-item{
+    padding-left:20px;
+    width:30%;
+    margin-left:7%;
+    margin-right:5%;
+    padding-bottom: 80px;
+    box-shadow:10px 10px 40px grey;
+    border-left:8px solid #dd5c06;
+    
+}
+.alu{
+    padding-top:50px;
+}
+footer p{
+    text-align:center;
+    color:grey;
 }
